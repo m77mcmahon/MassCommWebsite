@@ -1,10 +1,9 @@
 
 body {
     font-family: Arial, sans-serif;
-   
     background-size: cover; /* Ensures the background covers the whole viewport */
     background-position: center; /* Ensures the background is centered */
-    background: linear-gradient(180deg, #00cf79, #88dd00);
+    background: linear-gradient(90deg, #00cf79, #88dd00);
 }
 
 header, footer {
@@ -77,4 +76,11 @@ main {
 .content {
     margin-top: 80px; /* Pushes content down below the dashboard */
     padding: 20px;
+}
+
+.NoHighlightLink {
+    a:link {color: white;}
+    a:visited {color: white;} 
+    a:hover {color: white;}
+    a:active {color: white ;}  
 }
